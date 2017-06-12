@@ -1,0 +1,347 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("EBayAddCart.feature");
+formatter.feature({
+  "line": 2,
+  "name": "Test EBay add to cart feature",
+  "description": "",
+  "id": "test-ebay-add-to-cart-feature",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@EBayFeature"
+    }
+  ]
+});
+formatter.background({
+  "line": 3,
+  "name": "Launch application",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "Launch the ebay application \"http://www.ebay.in/\"",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Verify that page is launched",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "http://www.ebay.in/",
+      "offset": 29
+    }
+  ],
+  "location": "LaunchWebPageTest.launch_the_ebay_application(String)"
+});
+formatter.result({
+  "duration": 145454548681,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LaunchWebPageTest.verify_that_page_is_launched()"
+});
+formatter.result({
+  "duration": 346000598,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 7,
+  "name": "Search the item",
+  "description": "",
+  "id": "test-ebay-add-to-cart-feature;search-the-item",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 8,
+  "name": "Search for the item \"iphone 6\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "Select any item and add to cart",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
+  "name": "Verify add cart for the added item",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "iphone 6",
+      "offset": 21
+    }
+  ],
+  "location": "SearchItemOnEbayTest.search_for_the_item(String)"
+});
+formatter.result({
+  "duration": 174278558,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SearchItemOnEbayTest.select_any_item_and_add_to_cart()"
+});
+formatter.result({
+  "duration": 14823641332,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SearchItemOnEbayTest.verify_add_cart_for_the_added_item()"
+});
+formatter.result({
+  "duration": 24180534285,
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "line": 12,
+  "name": "Search few more items",
+  "description": "",
+  "id": "test-ebay-add-to-cart-feature;search-few-more-items",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 13,
+  "name": "Search for the item \"\u003citem\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 14,
+  "name": "Select any item and add to cart",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 15,
+  "name": "Verify add cart for the added item",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 17,
+  "name": "",
+  "description": "",
+  "id": "test-ebay-add-to-cart-feature;search-few-more-items;",
+  "rows": [
+    {
+      "cells": [
+        "item"
+      ],
+      "line": 18,
+      "id": "test-ebay-add-to-cart-feature;search-few-more-items;;1"
+    },
+    {
+      "cells": [
+        "iphone 6S"
+      ],
+      "line": 19,
+      "id": "test-ebay-add-to-cart-feature;search-few-more-items;;2"
+    },
+    {
+      "cells": [
+        "iphone 7"
+      ],
+      "line": 20,
+      "id": "test-ebay-add-to-cart-feature;search-few-more-items;;3"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.background({
+  "line": 3,
+  "name": "Launch application",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "Launch the ebay application \"http://www.ebay.in/\"",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Verify that page is launched",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "http://www.ebay.in/",
+      "offset": 29
+    }
+  ],
+  "location": "LaunchWebPageTest.launch_the_ebay_application(String)"
+});
+formatter.result({
+  "duration": 37099973614,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LaunchWebPageTest.verify_that_page_is_launched()"
+});
+formatter.result({
+  "duration": 123572864,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 19,
+  "name": "Search few more items",
+  "description": "",
+  "id": "test-ebay-add-to-cart-feature;search-few-more-items;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@EBayFeature"
+    }
+  ]
+});
+formatter.step({
+  "line": 13,
+  "name": "Search for the item \"iphone 6S\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 14,
+  "name": "Select any item and add to cart",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 15,
+  "name": "Verify add cart for the added item",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "iphone 6S",
+      "offset": 21
+    }
+  ],
+  "location": "SearchItemOnEbayTest.search_for_the_item(String)"
+});
+formatter.result({
+  "duration": 163588910,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SearchItemOnEbayTest.select_any_item_and_add_to_cart()"
+});
+formatter.result({
+  "duration": 8131297585,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SearchItemOnEbayTest.verify_add_cart_for_the_added_item()"
+});
+formatter.result({
+  "duration": 18551949954,
+  "status": "passed"
+});
+formatter.background({
+  "line": 3,
+  "name": "Launch application",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "Launch the ebay application \"http://www.ebay.in/\"",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Verify that page is launched",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "http://www.ebay.in/",
+      "offset": 29
+    }
+  ],
+  "location": "LaunchWebPageTest.launch_the_ebay_application(String)"
+});
+formatter.result({
+  "duration": 13293665541,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LaunchWebPageTest.verify_that_page_is_launched()"
+});
+formatter.result({
+  "duration": 121027893,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 20,
+  "name": "Search few more items",
+  "description": "",
+  "id": "test-ebay-add-to-cart-feature;search-few-more-items;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@EBayFeature"
+    }
+  ]
+});
+formatter.step({
+  "line": 13,
+  "name": "Search for the item \"iphone 7\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 14,
+  "name": "Select any item and add to cart",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 15,
+  "name": "Verify add cart for the added item",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "iphone 7",
+      "offset": 21
+    }
+  ],
+  "location": "SearchItemOnEbayTest.search_for_the_item(String)"
+});
+formatter.result({
+  "duration": 219286185,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SearchItemOnEbayTest.select_any_item_and_add_to_cart()"
+});
+formatter.result({
+  "duration": 92980888127,
+  "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator \u0027By.id: isCartBtn_btn\u0027 (tried for 90 second(s) with 500 MILLISECONDS interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)\r\n\tat com.epam.utilities.SingletonDriver.waitToLoadPage(SingletonDriver.java:53)\r\n\tat com.epam.pages.SearchItemOnEbayPage.selectItem(SearchItemOnEbayPage.java:35)\r\n\tat steps.SearchItemOnEbayTest.select_any_item_and_add_to_cart(SearchItemOnEbayTest.java:19)\r\n\tat ✽.Then Select any item and add to cart(EBayAddCart.feature:14)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: #isCartBtn_btn\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027DESKTOP-6GE5T5O\u0027, ip: \u0027192.168.43.123\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_101\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile\u003dC:\\Users\\PRAVEE~1\\AppData\\Local\\Temp\\rust_mozprofile.o3U91ovcU3ON, rotatable\u003dfalse, timeouts\u003d{implicit\u003d0.0, pageLoad\u003d300000.0, script\u003d30000.0}, pageLoadStrategy\u003dnormal, platform\u003dANY, specificationLevel\u003d0.0, moz:accessibilityChecks\u003dfalse, acceptInsecureCerts\u003dtrue, browserVersion\u003d53.0.3, platformVersion\u003d10.0, moz:processID\u003d2624.0, browserName\u003dfirefox, javascriptEnabled\u003dtrue, platformName\u003dwindows_nt}]\nSession ID: 93afb254-9dff-457e-a231-0c65ded238d5\n*** Element info: {Using\u003did, value\u003disCartBtn_btn}\r\n\tat sun.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:218)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)\r\n\tat com.epam.utilities.Decorator.findElement(Decorator.java:27)\r\n\tat com.epam.utilities.Decorator.findElement(Decorator.java:27)\r\n\tat com.epam.utilities.Decorator.findElement(Decorator.java:27)\r\n\tat com.epam.utilities.Decorator.findElement(Decorator.java:27)\r\n\tat com.epam.utilities.Decorator.findElement(Decorator.java:27)\r\n\tat com.epam.utilities.Decorator.findElement(Decorator.java:27)\r\n\tat com.epam.utilities.Decorator.findElement(Decorator.java:27)\r\n\tat com.epam.utilities.Decorator.findElement(Decorator.java:27)\r\n\tat com.epam.utilities.Decorator.findElement(Decorator.java:27)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)\r\n\tat com.epam.utilities.SingletonDriver.waitToLoadPage(SingletonDriver.java:53)\r\n\tat com.epam.pages.SearchItemOnEbayPage.selectItem(SearchItemOnEbayPage.java:35)\r\n\tat steps.SearchItemOnEbayTest.select_any_item_and_add_to_cart(SearchItemOnEbayTest.java:19)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:37)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:13)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:31)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:299)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:98)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "SearchItemOnEbayTest.verify_add_cart_for_the_added_item()"
+});
+formatter.result({
+  "status": "skipped"
+});
+});
